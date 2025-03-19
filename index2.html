@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewort" content="width=device-width, initial-scale=1.0">
+        <title>PLP Week 1 </title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+           
+            }
+            table, th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to this week's Assignment</h1>
+        #Ordered List with Roman Numerals 
+
+        <p> These are the genres that I like to listen to while coding, they bring peace of mind</p>
+        <h2>Ordered Music List</h2>
+        <ol type="I">
+            <li>Jazz</li>
+            <li>Afro Jazz</li>
+            <li>Contemporary RnB</li>
+            <li>Alternative Rock</li>
+            <li>Deep House</li>
+            <li>South African Hip-hop</li>
+        </ol>
+    <!--External Image from Pexels -->
+        <h2>Image to capture the mood</h2>
+        <img src="music jam session.webp" alt="Music Jam Session" width="500" height="500">
+
+    <!--Contact Table -->
+        <h2>Contact Information</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Andiswa Cyria</td>
+                <td>Melle street, Braamfontein</td>
+                <td>06001809901</td>
+                <td>janedoecyria@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ray Cyria</td>
+                <td>Harrison Street,Johannesburg</td>
+                <td>0760115702</td>
+                <td>raycyria@gmail.com</td>
+            </tr>
+        </table>
+
+        <!--Registration form-->
+        <h2>Registration form</h2>
+        <form action="index1.html" method="post">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br>
+            
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+           
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="South Africa">South Africa</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Ghana">Ghana</option>
+            </select><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+    <footer>
+        <p>&copy; 2025 Andiswa Cyria. All rights reserved</p>
+    </footer>
+
+    
+</html>
